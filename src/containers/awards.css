@@ -1,0 +1,36 @@
+.awards {
+  display: flex;
+  font-family: "Cormorant Upright", serif;
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+
+.laurels {
+  width: 50%;
+  color: white;
+  padding-left: 60px;
+  padding-top: 50px;
+}
+.laurels h1 {
+  font-size: 50px;
+  margin-top: 20px;
+  color: rgb(220, 204, 114);
+}
+
+.viv {
+  padding: 30px;
+  font-size: 18px;
+}
+.viv > * {
+  padding: 10px;
+}
+.Gwards {
+  width: 50%;
+}
+.Gwards img {
+  width: 70%;
+}
+
+.x {
+  color: rgb(220, 204, 114);
+}

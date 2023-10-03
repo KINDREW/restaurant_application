@@ -1,0 +1,95 @@
+.menu {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.header {
+  font-family: "Cormorant Upright", serif;
+  text-align: center;
+  color: white;
+  background: black;
+  font-size: 20px;
+}
+.header h1 {
+  font-family: "Cormorant Upright", serif;
+  color: rgb(220, 204, 114);
+  font-size: 60px;
+  margin-bottom: 50px;
+}
+
+.specials {
+  background: black;
+  display: flex;
+  flex-direction: row;
+}
+
+.beer {
+  color: white;
+  font-family: "Cormorant Upright", serif;
+
+  width: 30%;
+  /* background: red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.b {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  line-height: 30px;
+}
+
+.b1 {
+  width: 70%;
+  /* background: green; */
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  font-family: "Cormorant Upright", serif;
+  color: rgb(220, 204, 114);
+  margin-top: 20px;
+}
+
+.tags {
+  color: white;
+}
+
+.b2 {
+  color: white;
+  font-family: cursive;
+  font-size: 12px;
+}
+.picture {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(../asserts/menu.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 75vh;
+}
+
+.more {
+  /* color: white; */
+  text-align: center;
+  padding: 10px 20px;
+  background: rgb(229, 226, 226);
+  width: fit-content;
+  justify-self: center;
+  align-self: center;
+  border-radius: 5px;
+  margin-top: 50px;
+  font-family: "Cormorant Upright", serif;
+
+  font-weight: 700;
+}

@@ -1,0 +1,68 @@
+.about {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 100px;
+  position: relative;
+  z-index: 0;
+}
+
+.aboutUs {
+  width: 30%;
+  text-align: right;
+
+  color: rgb(240, 233, 223);
+}
+
+.aboutUs h1 {
+  font-family: cursive;
+  /* font-size: 50px; */
+}
+.aboutUs p {
+  text-align: right;
+  font-family: "Poppins";
+  font-size: 12px;
+}
+
+.history {
+  width: 30%;
+
+  color: rgb(240, 233, 223);
+}
+.history h1 {
+  text-align: left;
+  font-family: cursive;
+}
+
+.history p {
+  text-align: left;
+  font-family: "Poppins";
+  font-size: 12px;
+}
+
+.knife {
+  width: 6%;
+  margin-left: 15px;
+  margin-right: 15px;
+
+  position: relative;
+}
+
+.knife img {
+  height: 100%;
+  width: 100%;
+  opacity: 0.7;
+}
+
+.background {
+  position: absolute;
+  top: -7%;
+  right: -150%;
+  font-size: 500px;
+  font-family: "Noto Serif KR", serif;
+  z-index: -1;
+  color: rgb(228, 225, 221);
+  opacity: 0.1;
+}

@@ -1,0 +1,91 @@
+.newsletter {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-family: "Cormorant Upright", serif;
+  padding-top: 50px;
+}
+
+.newsTop {
+  /* background: red; */
+  width: 50%;
+  border: 1px solid rgb(220, 204, 114);
+  text-align: center;
+  padding: 20px 20px;
+}
+
+.newsTop h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.newsTop h1 {
+  color: rgb(220, 204, 114);
+  font-size: 50px;
+}
+
+input {
+  padding: 10px 20px;
+  width: 58%;
+  font-family: "Cormorant Upright", serif;
+  background: transparent;
+  margin-top: 35px;
+}
+
+button {
+  padding: 11.5px 20px;
+  font-family: "Cormorant Upright", serif;
+  border: none;
+  background: white;
+  margin-left: 20px;
+}
+
+.newbottom {
+  width: 100%;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: start;
+  padding-bottom: 50px;
+
+  /* background: red; */
+}
+.newbottom > * {
+  margin-right: 100px;
+}
+
+.newbottom div {
+  /* width: 0%; */
+  /* background: red; */
+  margin-left: 30px;
+  text-align: center;
+}
+.newbottom ul {
+  list-style: none;
+  font-size: 20px;
+}
+
+.newbottom p {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.newbottom img {
+  /* width: 50%; */
+}
+
+.ddle li {
+  display: inline;
+  margin-left: 20px;
+}
+
+.ddle ul {
+  margin-top: 10px;
+}
+
+.ast ul {
+  margin-top: 20px;
+}

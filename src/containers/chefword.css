@@ -1,0 +1,67 @@
+.chefword {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  font-family: "Cormorant Upright", serif;
+}
+
+.chef {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background: red; */
+}
+.chef img {
+  width: 70%;
+}
+
+.chefw {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  padding-right: 50px;
+  /* justify-content: center; */
+}
+.chefw > * {
+  margin-top: 50px;
+}
+
+.spo {
+  width: 5%;
+  margin-top: 4px;
+}
+
+.chefw h1 {
+  font-size: 60px;
+  text-transform: capitalize;
+
+  color: rgb(220, 204, 114);
+}
+
+.chefw h2 {
+  margin-top: 10px;
+  font-family: "Open Sans";
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.chefw p {
+  font-size: 20px;
+}
+
+.quote {
+  width: 5%;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.s1 {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.sign {
+  width: 30%;
+}

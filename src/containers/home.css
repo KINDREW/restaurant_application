@@ -1,0 +1,57 @@
+.home {
+  display: flex;
+  padding: 50px 150px;
+  background: black;
+  color: white;
+}
+
+.home-left {
+  width: 50%;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  border: 1px solid black;
+  line-height: 50px;
+  padding-right: 90px;
+}
+
+.home-right {
+  width: 50%;
+  border: 1px solid black;
+  background: url(../asserts/welcome.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.home-left span {
+  margin-top: -100px;
+  font-family: cursive;
+}
+
+.home-left h1 {
+  text-transform: uppercase;
+  color: rgb(220, 204, 114);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 500;
+  font-size: 50px;
+}
+
+.home-left p {
+  margin-top: 10px;
+  line-height: 20px;
+  font-family: "Roboto";
+}
+
+.home-left button {
+  width: 120px;
+  margin-top: 20px;
+  padding: 5px 10px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid rgb(255, 255, 255);
+  background: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
