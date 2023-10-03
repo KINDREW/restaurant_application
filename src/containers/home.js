@@ -1,10 +1,14 @@
 import "./home.css";
+import spoon from "../asserts/spoon.png";
 
 const Home = () => {
   return (
     <div className="home">
       <div className="home-left">
-        <span>Chose The New Flavour</span>
+        <span>
+          Chose The New Flavour <br /> <img src={spoon} alt="" />
+        </span>
+
         <h1>The key to fine dinning</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis
@@ -13,9 +17,7 @@ const Home = () => {
         </p>
         <button>Explore Menu</button>
       </div>
-      <div className="home-right">
-        <img src="" alt="" />
-      </div>
+      <div className="home-right"></div>
     </div>
   );
 };

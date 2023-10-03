@@ -17,7 +17,8 @@
 }
 
 .aboutUs h1 {
-  font-family: cursive;
+  font-family: "Cormorant Upright", serif;
+
   /* font-size: 50px; */
 }
 .aboutUs p {
@@ -33,7 +34,7 @@
 }
 .history h1 {
   text-align: left;
-  font-family: cursive;
+  font-family: "Cormorant Upright", serif;
 }
 
 .history p {
@@ -65,4 +66,56 @@
   z-index: -1;
   color: rgb(228, 225, 221);
   opacity: 0.1;
+}
+
+@media (max-width: 768px), (min-width: 426px) {
+  .about {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .background {
+    font-size: 300px;
+    top: -18%;
+    left: -250%;
+  }
+}
+
+@media (max-width: 426px) {
+  .about {
+    flex-direction: column;
+    height: 100vh;
+  }
+
+  .aboutUs {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .knife {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .knife img {
+    width: 10%;
+    height: 100%;
+    transform: rotate(90deg);
+  }
+
+  .history {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  .background {
+    top: 0%;
+    left: 22%;
+    font-size: 200px;
+  }
 }

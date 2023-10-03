@@ -34,3 +34,10 @@
 .x {
   color: rgb(220, 204, 114);
 }
+
+@media (max-width: 768px) {
+  .awards {
+    justify-content: center;
+    align-items: center;
+  }
+}

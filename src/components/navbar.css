@@ -21,25 +21,13 @@ nav img {
   padding-left: 5px;
 }
 
-/* 
-@media (max-width: 320px), (min-width: 200px) {
+@media (max-width: 768px), (min-width: 426px) {
   nav {
-    font-size: 5px;
-    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
-  nav img {
-    width: 70px;
-  }
-  .top-right {
-    display: none;
-  }
-
-  .top-right > * {
-    padding-left: 0px;
-  }
-} */
-
-@media (max-width: 768px) {
   .links li {
     display: none;
   }
@@ -48,7 +36,7 @@ nav img {
     /* border: 2px solid white; */
     width: 40px;
     height: 30px;
-    margin-right: 20px;
+    /* margin-right: -50px; */
   }
 
   .bar1,
@@ -59,5 +47,15 @@ nav img {
     background: white;
     margin: 7px 3.2px;
     transition: all 2s ease;
+  }
+
+  .top-right > * {
+    padding-left: 5px;
+  }
+}
+
+@media (max-width: 426px) {
+  .top-right {
+    display: none;
   }
 }

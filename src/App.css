@@ -1,4 +1,5 @@
 .App {
   background: url(./asserts/bg.png);
   background-attachment: fixed;
+  font-family: "Cormorant Upright", serif;
 }

@@ -89,3 +89,21 @@ button {
 .ast ul {
   margin-top: 20px;
 }
+
+@media (max-width: 768px) {
+  .newbottom {
+    justify-content: space-between;
+  }
+  .newbottom h1 {
+    font-size: 25px;
+  }
+  .newbottom div {
+    /* font-size: 18px; */
+    /* background: red; */
+    width: 50%;
+  }
+
+  .newbottom > * {
+    margin-right: 0px;
+  }
+}

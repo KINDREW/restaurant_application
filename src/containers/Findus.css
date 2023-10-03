@@ -54,3 +54,10 @@
 .ind img {
   width: 70%;
 }
+
+@media (max-width: 768px) {
+  .findus {
+    justify-content: center;
+    align-items: center;
+  }
+}

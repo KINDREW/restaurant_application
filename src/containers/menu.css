@@ -93,3 +93,23 @@
 
   font-weight: 700;
 }
+
+@media (max-width: 768px) {
+  .specials {
+    background: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .beer {
+    width: 100%;
+  }
+
+  .picture {
+    width: 100%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+}

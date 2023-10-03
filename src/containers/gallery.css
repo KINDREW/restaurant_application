@@ -44,14 +44,7 @@
 
 .inst::-webkit-scrollbar {
   width: 1%; /* Set the width of the scrollbar (short) */
-  background: white;
-  margin-left: 50px;
-  padding-left: 20px;
-}
-
-.inst::-webkit-scrollbar-thumb {
-  background-color: #333; /* Color of the scrollbar thumb */
-  border-radius: 4px; /* Rounded corners for the thumb */
+  background: transparent;
 }
 
 .inst img {
@@ -70,4 +63,10 @@
 
 .insta:hover {
   opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .inst img {
+    width: 50%;
+  }
 }
