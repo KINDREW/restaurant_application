@@ -63,7 +63,6 @@
   }
   .home-left {
     width: 60%;
-    /* background: red; */
     padding-top: 50px;
   }
 
@@ -87,7 +86,6 @@
   .home-left {
     text-align: center;
     width: 100%;
-    /* background: red; */
     padding-top: 50px;
     padding-right: 10px;
     padding-left: 10px;
