@@ -78,6 +78,7 @@ nav img {
 
   .bar {
     display: block;
+    transition: all 1s ease;
   }
 
   .bar1,
@@ -102,22 +103,32 @@ nav img {
   .change .bar1 {
     transform: rotate(45deg) translate(10px, -3px);
     height: 3px;
-    /* transition: all 1s ease; */
+    transition: all 1s ease;
     margin-top: 20px;
-    background: black;
+    background: white;
     margin-right: 5px;
-    /* margin-bottom: 15px; */
   }
   .change .bar2 {
-    /* transform: rotate(45deg) translate(10px, 10px); */
     opacity: 0;
   }
   .change .bar3 {
     transform: rotate(-45deg) translate(15px, -4px);
     height: 3px;
-    /* transition: all 1s ease; */
-    background: black;
+    transition: all 1s ease;
+    background: white;
     margin-right: 5px;
     margin-bottom: 5px;
+  }
+}
+
+@media (max-width: 426px) {
+  nav {
+    padding: 10px 20px;
+  }
+
+  .links {
+    top: 6%;
+    left: 48.9%;
+    width: 50%;
   }
 }
