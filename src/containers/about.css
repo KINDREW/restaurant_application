@@ -68,54 +68,48 @@
   opacity: 0.1;
 }
 
-@media (max-width: 768px), (min-width: 426px) {
-  .about {
-    padding-left: 50px;
-    padding-right: 50px;
+@media (max-width: 768px) {
+  .aboutUs {
+    width: 50%;
+  }
+
+  .history {
+    width: 50%;
+  }
+
+  .aboutUs p {
+    font-size: 15px;
+  }
+
+  .history p {
+    font-size: 15px;
+  }
+  .knife {
+    width: 15%;
   }
 
   .background {
-    font-size: 300px;
-    top: -18%;
-    left: -250%;
+    top: -20%;
+    left: -200%;
   }
 }
 
 @media (max-width: 426px) {
   .about {
     flex-direction: column;
-    height: 100vh;
+    width: 100%;
   }
 
-  .aboutUs {
+  .about > * {
+    margin-top: 50px;
+  }
+
+  .aboutUs,
+  .history {
     width: 100%;
-    padding: 0;
-    margin: 0;
   }
 
   .knife {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  .knife img {
-    width: 10%;
-    height: 100%;
-    transform: rotate(90deg);
-  }
-
-  .history {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-  .background {
-    top: 0%;
-    left: 22%;
-    font-size: 200px;
+    display: none;
   }
 }

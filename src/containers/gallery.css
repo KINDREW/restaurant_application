@@ -70,3 +70,16 @@
     width: 50%;
   }
 }
+
+@media (max-width: 426px) {
+  .gallery {
+    flex-direction: column;
+  }
+
+  .gallery > * {
+    width: 100%;
+  }
+  .inst {
+    margin-top: 50px;
+  }
+}

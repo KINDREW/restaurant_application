@@ -41,3 +41,17 @@
     align-items: center;
   }
 }
+@media (max-width: 426px) {
+  .awards {
+    flex-direction: column;
+  }
+  .awards > * {
+    width: 100%;
+  }
+
+  .Gwards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

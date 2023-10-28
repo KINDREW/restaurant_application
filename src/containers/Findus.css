@@ -61,3 +61,19 @@
     align-items: center;
   }
 }
+
+@media (max-width: 426px) {
+  .findus {
+    flex-direction: column;
+  }
+
+  .findus > * {
+    width: 100%;
+  }
+
+  .ind {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}

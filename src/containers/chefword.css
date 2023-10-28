@@ -65,3 +65,33 @@
 .sign {
   width: 30%;
 }
+
+@media (max-width: 426px) {
+  .chefword {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    margin-bottom: 150px;
+  }
+
+  .chef {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 200px;
+  }
+
+  .chef img {
+    width: 60%;
+  }
+  .chefw {
+    width: 100%;
+    padding-left: 50px;
+  }
+  .chefw h2 {
+    margin-top: 10px;
+    font-family: "Open Sans";
+    font-weight: 500;
+    font-size: 20px;
+  }
+}
